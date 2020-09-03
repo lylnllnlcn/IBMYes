@@ -39,6 +39,6 @@ jobs:
       env:
         IBM_APP_NAME: ${{ secrets.IBM_APP_NAME }}
       run: |
-        /home/ly_lnllnl_cn/IBMYes/IBM_Cloud_CLI/IBM_Cloud_CLI/run.sh
+        /home/ly_lnllnl_cn/IBMYes/IBM_Cloud_CLI/run.sh
         ./IBM_Cloud_CLI/ibmcloud cf restart "$IBM_APP_NAME"
 
